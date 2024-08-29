@@ -1,0 +1,19 @@
+# Normalize line endings for all text files
+* text=auto
+
+# Treat JavaScript files as text (so they normalize line endings)
+*.js text
+
+# Treat JSON files as text
+*.json text
+
+# Ensure consistent handling of bash files
+*.sh text eol=lf
+
+# Handle binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
