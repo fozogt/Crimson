@@ -1,24 +1,46 @@
-# Compiled class file
-*.class
+# Node modules directory
+node_modules/
 
-# Log file
+# Logs
+logs/
 *.log
+npm-debug.log*
 
-# BlueJ files
-*.ctxt
+# Environment variables
+.env
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Build files
+dist/
+build/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Cache files
+.cache/
+.next/
+out/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Dependency directories
+jspm_packages/
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Test coverage reports
+coverage/
+*.lcov
+
+# Production files
+*.min.js
+*.min.css
+
+# TypeScript specific
+*.tsbuildinfo
+tsconfig.tsbuildinfo
